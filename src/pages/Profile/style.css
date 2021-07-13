@@ -1,0 +1,12 @@
+.profile-image {
+    width: 200px;
+    height: 200px;
+}
+
+.round-card {
+    border-radius: 28px;
+}
+
+#profile-page {
+    padding-bottom: 400px;
+}

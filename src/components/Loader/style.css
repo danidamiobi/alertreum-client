@@ -1,0 +1,23 @@
+.majour-loader {
+    border-left: 12px solid #4e4e4e;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #4e4e4e;
+    border-bottom: 12px solid transparent;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: rotate_animate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-duration: 1s;
+}
+
+@keyframes rotate_animate {
+    0% {
+        transform: rotate(0deg) scale(.8);
+        opacity: 0;
+    } 100% {
+        transform: rotate(360deg) scale(1);
+        opacity: 1;
+    }
+}

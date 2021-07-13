@@ -1,0 +1,17 @@
+#mobile-side-menu {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1000;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    overflow: auto;
+    transition: 888ms ease;
+}
+
+@media only screen and (min-width: 1276px) {
+    #mobile-side-menu {
+        display: none;
+    }
+}

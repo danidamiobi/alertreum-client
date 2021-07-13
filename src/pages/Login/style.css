@@ -1,0 +1,13 @@
+#login {
+    background: #4e4e4e;
+}
+
+#left-display {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #left-pane {
+        display: block;
+    }
+}

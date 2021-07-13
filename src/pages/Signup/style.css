@@ -1,0 +1,25 @@
+#sign-up {
+    background: #4e4e4e;
+}
+
+.gray {
+    color: gray;
+}
+
+#sign-up-img {
+    width: 100%;
+}
+
+.input-text-small {
+    font-size: 13px;
+}
+
+#left-pane {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #left-pane {
+        display: block;
+    }
+}
